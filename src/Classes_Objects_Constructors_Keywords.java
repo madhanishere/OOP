@@ -7,6 +7,7 @@ Student madhan =new Student();
         System.out.println(madhan.rno);
         System.out.println(madhan.marks);
         System.out.println(madhan.name);
+
     }
 }
 class Student{
