@@ -25,6 +25,7 @@ this.bonus=bonus;
 }
     void Display(){
         System.out.println(id+" "+name+" "+salary+" "+bonus);
+        System.out.println();
     }
 
 }
