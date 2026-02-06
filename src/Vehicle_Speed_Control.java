@@ -8,6 +8,7 @@ private int speed=0;
     }
 void display(){
     System.out.println(speed);
+    System.out.println();
 }
 }
 
