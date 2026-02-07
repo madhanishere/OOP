@@ -15,7 +15,6 @@ public class Employee_Management_System {
         Manager ob=new Manager(21,"ravi",100000,5000);
         ob.Display();
     }
-
 }
 class Manager extends Employee_Management_System{
 int bonus;

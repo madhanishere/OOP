@@ -3,22 +3,24 @@ private int speed=0;
     void setSpeed(int value){
         speed+=value;
     }
-    int getSpeed(int speed){
+    int getSpeed(){
         return speed;
     }
+
 void display(){
     System.out.println(speed);
-    System.out.println();
+
 }
 }
 
 public class Vehicle_Speed_Control extends Vehicle{
     static void main(String[] args) {
-Vehicle in=new Vehicle();
+        Vehicle_Speed_Control in = new Vehicle_Speed_Control();
 
-in.setSpeed((in.getSpeed(50)));
-        in.setSpeed((in.getSpeed(50)));
-        in.setSpeed((in.getSpeed(50)));
+        System.out.println(in.getSpeed());
+in.setSpeed(50);
+in.setSpeed(100);
+        in.setSpeed(100);
         in.display();
     }
 }
